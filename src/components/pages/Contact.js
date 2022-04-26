@@ -13,7 +13,7 @@ const Contact = () => {
     return (
 
         <div className='contactbg'>
-            <React.Fragment>
+            <>
                 <Header />
                 <CssBaseline />
                 <Container id='contactpage'>
@@ -52,7 +52,7 @@ const Contact = () => {
                         </Grid>
                     </Box>
                 </Container>
-            </React.Fragment>
+            </>
         </div>
     )
 }
