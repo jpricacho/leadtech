@@ -1,19 +1,23 @@
 .cards {
-    width: 300px;
-    height: 480px;
     background: white;
     border-radius: 10px;
     box-shadow: 0px 1px 10px 1px black;
     overflow: hidden;
 
 }
+.txt {
+    text-align: center;
+    margin-bottom: 50px;
+    margin-top: 50px;
+}
 .d-flex {
     align-items: center;
     justify-content: center;
+    margin-top: 10px;
 }
 .upper-container {
     height: 100px;
-    background-color: linear-gradient(to left, #2d00f7, #ff0291);
+    background: linear-gradient(to left, #2d00f7, #ff0291);
 }   
 .image-container img {
     background: white;

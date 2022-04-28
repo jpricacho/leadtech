@@ -18,42 +18,45 @@ const Developers = () => {
     return (
         <>
            <Header />
-            <div className="d-flex gap-5" width="100px" height="100vh">
-                <div className='cards'>
+           <div className="txt text-white display-4" > 
+           Meet Our Developers
+           </div>
+            <div className="d-flex gap-3" width="100px" height="100vh"> 
+                <div className='cards col-3'>
                     <div className='upper-container'>
                         <div className="image-container">
-                            <img src="" alt='' height="100px" width="100px" />
+                            <img src="" alt='' />
                         </div>
                     </div>
                     <div className="lower-container">
-                        <h3> ( name ) </h3>
-                        <h4> ( job ) </h4>
+                        <h3> Cielito Ann Repuyan </h3>
+                        <h4> Web Developer </h4>
                         <p> (about) </p>
                         <button> Visit Portfolio </button>
                     </div>
                 </div>
-                <div className='cards'>
+                <div className='cards col-3'>
                     <div className='upper-container'>
                         <div className="image-container">
-                            <img src="" alt='' height="100px" width="100px" />
+                            <img src="" alt=''/>
                         </div>
                     </div>
                     <div className="lower-container">
-                        <h3> ( name ) </h3>
-                        <h4> ( job ) </h4>
+                        <h3> James Patrick Ricacho </h3>
+                        <h4> Web Developer </h4>
                         <p> (about) </p>
                         <button> Visit Portfolio </button>
                     </div>
                 </div>
-                <div className='cards'>
+                <div className='cards col-3'>
                     <div className='upper-container'>
                         <div className="image-container">
-                            <img src="" alt='' height="100px" width="100px" />
+                            <img src="" alt=''/>
                         </div>
                     </div>
                     <div className="lower-container">
-                        <h3> ( name ) </h3>
-                        <h4> ( job ) </h4>
+                        <h3> Meliza De Guia </h3>
+                        <h4> Web Developer </h4>
                         <p> (about) </p>
                         <button> Visit Portfolio </button>
                     </div>
