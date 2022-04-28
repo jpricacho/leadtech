@@ -19,7 +19,6 @@ root.render(
       <Route path='/projects' element={<Projects/>}/>
       <Route path='/services' element={<Services/>}/>
       <Route path='/about' element={<About/>}/>
-
     </Routes>
 </Router>
 );

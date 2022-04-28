@@ -1,6 +1,5 @@
 import React, { useState } from 'react';
 import '../styles/Section.css';
-import { Link } from 'react-router-dom';
 import { Row, Container, Col } from 'react-bootstrap';
 import heroimg from '../images/hero-comp.png';
 import heroimg2 from '../images/hero-ui.png';
@@ -32,8 +31,8 @@ const Section = () => {
                                             <span className='h2 hero-cap'>We bring ideas to life.<br />Responsive. Creative. Modern.</span>
                                         </div>
                                         <div className='d-flex gap-3'>
-                                            <Button href='/services' variant="outline-info">View Services</Button>
-                                            <Button href='/contact' variant="outline-info">Contact Us</Button>
+                                            <Button href='/services' variant="outline-info" style={{fontWeight: 700}}>View Services</Button>
+                                            <Button href='/contact' variant="outline-info" style={{fontWeight: 700}}>Contact Us</Button>
                                         </div>
                                     </div>
                                 </Col>
@@ -59,8 +58,8 @@ const Section = () => {
                                             <span className='h2 hero-cap'>Seamless design.<br />Big or small projects.</span>
                                         </div>
                                         <div className='d-flex gap-3'>
-                                            <Button href='/services' variant="outline-info">View Services</Button>
-                                            <Button href='/contact' variant="outline-info">Contact Us</Button>
+                                            <Button href='/services' variant="outline-info" style={{fontWeight: 700}}>View Services</Button>
+                                            <Button href='/contact' variant="outline-info" style={{fontWeight: 700}}>Contact Us</Button>
                                         </div>
                                     </div>
                                 </Col>
@@ -86,8 +85,8 @@ const Section = () => {
                                             <span className='h2 hero-cap'>Be on top of the page.<br />Be visible and be known.</span>
                                         </div>
                                         <div className='d-flex gap-3'>
-                                            <Button href='/services' variant="outline-info">View Services</Button>
-                                            <Button href='/contact' variant="outline-info">Contact Us</Button>
+                                            <Button href='/services' variant="outline-info" style={{fontWeight: 700}}>View Services</Button>
+                                            <Button href='/contact' variant="outline-info" style={{fontWeight: 700}}>Contact Us</Button>
                                         </div>
                                     </div>
                                 </Col>
