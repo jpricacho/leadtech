@@ -1,12 +1,10 @@
 import { ClassNames } from "@emotion/react";
 import React,{useState} from "react";
 import '../styles/Developers.css';
-import React from 'react'
 import Box from '@mui/material/Box';
 import Grid from '@mui/material/Grid';
 import CssBaseline from '@mui/material/CssBaseline';
 import Container from '@mui/material/Container';
-import '../styles/Developers.css'
 import Header from './Header';
 // import 'bootstrap/dist/css/bootstrap.min.css';
 
@@ -19,6 +17,7 @@ const Developers = () => {
     const [about,setAbout] = useState(' check this portfolio ');
     return (
         <>
+           <Header />
             <div className="d-flex gap-5" width="100px" height="100vh">
                 <div className='cards'>
                     <div className='upper-container'>
