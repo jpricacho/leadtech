@@ -2,7 +2,7 @@ import React, { useState } from 'react';
 import { Link } from 'react-router-dom';
 // import '../styles/Header.css'
 import logo from '../images/logo.png'
-import {Navbar, Nav, Container, Offcanvas, Form, FormControl, NavDropdown, Button} from 'react-bootstrap';
+import { Navbar, Nav, Container, Offcanvas, Form, FormControl, NavDropdown, Button } from 'react-bootstrap';
 
 
 
@@ -20,7 +20,7 @@ const Header = () => {
                     />
                 </Navbar.Brand>
 
-                <Navbar.Toggle aria-controls="offcanvasNavbar-expand-lg"/>
+                <Navbar.Toggle aria-controls="offcanvasNavbar-expand-lg" />
                 <Navbar.Offcanvas
                     id="offcanvasNavbar-expand-lg"
                     aria-labelledby="offcanvasNavbarLabel-expand-lg"
@@ -31,7 +31,7 @@ const Header = () => {
                             Menu
                         </Offcanvas.Title>
                     </Offcanvas.Header>
-                    <Offcanvas.Body style={{background: 'radial-gradient(circle, rgba(21,9,78,1) 0%, rgba(3,23,65,1) 88%)'}}>
+                    <Offcanvas.Body style={{ background: 'radial-gradient(circle, rgba(21,9,78,1) 0%, rgba(3,23,65,1) 88%)' }}>
                         <Nav className="d-flex justify-content-end flex-grow-1 pe-3">
                             <Nav.Link eventKey={1} href="/">
                                 <span className='h3 navlink'>Home</span>
@@ -56,7 +56,7 @@ const Header = () => {
                 </Navbar.Offcanvas>
             </Container>
         </Navbar>
-    
+
     )
 
 
