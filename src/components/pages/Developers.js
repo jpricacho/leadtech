@@ -1,6 +1,16 @@
 import { ClassNames } from "@emotion/react";
 import React,{useState} from "react";
 import '../styles/Developers.css';
+import React from 'react'
+import Box from '@mui/material/Box';
+import Grid from '@mui/material/Grid';
+import CssBaseline from '@mui/material/CssBaseline';
+import Container from '@mui/material/Container';
+import '../styles/Developers.css'
+import Header from './Header';
+// import 'bootstrap/dist/css/bootstrap.min.css';
+
+
 
 const Developers = () => {
 

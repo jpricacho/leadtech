@@ -7,11 +7,14 @@
     height: 100vh;
 }
 
+h1{
+    text-align: center;
+    padding: 20px;
+    color: white;
+}
 
 .form{
     background-color: gray;
-    height: 60vh;
-    margin-top: 150px;
     padding: 20px;
     display: flex;
     justify-content: center;
@@ -25,7 +28,7 @@ form input{
     border-radius: 5px;
     border: none;
     padding: 10px;
-    margin-right: 10px;
+    margin-bottom: 10px;
 }
 
 form textarea{
@@ -53,14 +56,12 @@ form .submit:hover{
 }
 
 .otherinfo{
-    height: 60vh;
-    margin-top: 150px;
-    background-color: rgb(27, 27, 73);
+    height: 100%;
+    background-color: rgba(27, 27, 73, 0.747);
     border-radius: 10px;
     padding: 20px;
     display: flex;
-    justify-content: center;
-    align-items: center;
+    justify-content:center;
     flex-direction: column;
 }
 
@@ -75,11 +76,20 @@ form .submit:hover{
     font-size: 13px;
     text-transform: uppercase;
     color: var(--clr-gray);
+    text-align: center;
+    color: whitesmoke;
 }
 
 .socials ul li{
     list-style: none;
-    display: inline-block;
+    /* display: inline-block; */
+    padding: 10px;
+    margin-right: 10px;
+    color: white;
+}
+
+.socials .icons{
     margin-right: 10px;
 }
+
 
