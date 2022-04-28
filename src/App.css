@@ -1,3 +1,5 @@
+
+
 * {
   margin: 0;
   padding: 0;
@@ -15,6 +17,50 @@ h3,
 p {
   margin: 0;
 }
+
+.navlink {
+  color: white;
+  font-family: 'Roboto';
+}
+
+.navlink:hover,
+.active-link {
+  color: rgb(224, 224, 224);
+  padding-bottom: 10px;
+  border-bottom: white 3px solid;
+  
+}
+
+.hero-body {
+  padding-top: 10em;
+  color: white;
+  text-align: center;
+}
+
+.hero-head {
+  font-family: 'Righteous';
+  background: -webkit-linear-gradient(rgb(216, 52, 249) 0%, rgb(134, 40, 109) 88%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+.hero-head2 {
+  background: -webkit-linear-gradient(rgb(216, 52, 249) 0%, rgb(134, 40, 109) 88%);
+  padding: 0 20px;
+  border-radius: 20px;
+  font-family: 'Roboto';
+}
+
+.hero {
+  /* background: radial-gradient(circle, rgba(32,16,106,1) 0%, rgba(9,36,92,1) 88%); */
+  background: radial-gradient(circle, rgba(21,9,78,1) 0%, rgba(3,23,65,1) 88%);
+  height: 100vh;
+}
+
+.hero-cap {
+  font-family: 'Roboto';
+}
+
 
 
 /* colors */
