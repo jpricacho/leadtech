@@ -21,8 +21,8 @@ const Developers = () => {
            <div className="txt text-white display-4" > 
            Meet Our Developers
            </div>
-            <div className="d-flex gap-3" width="100px" height="100vh"> 
-                <div className='cards col-3'>
+            <div className="d-md-flex gap-3" width="100px" height="100vh"> 
+                <div className='cards col-md-4 col-12'>
                     <div className='upper-container'>
                         <div className="image-container">
                             <img src="" alt='' />
@@ -35,7 +35,7 @@ const Developers = () => {
                         <button> Visit Portfolio </button>
                     </div>
                 </div>
-                <div className='cards col-3'>
+                <div className='cards col-md-4 col-12'>
                     <div className='upper-container'>
                         <div className="image-container">
                             <img src="" alt=''/>
@@ -48,7 +48,7 @@ const Developers = () => {
                         <button> Visit Portfolio </button>
                     </div>
                 </div>
-                <div className='cards col-3'>
+                <div className='cards col-md-4 col-12'>
                     <div className='upper-container'>
                         <div className="image-container">
                             <img src="" alt=''/>
