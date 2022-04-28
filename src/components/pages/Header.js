@@ -8,7 +8,7 @@ import {Navbar, Nav, Container, Offcanvas, Form, FormControl, NavDropdown, Butto
 
 const Header = () => {
     return (
-        <Navbar expand="md" variant='dark'>
+        <Navbar expand="sm" variant='dark'>
             <Container>
                 <Navbar.Brand href="/">
                     <img
@@ -19,7 +19,7 @@ const Header = () => {
                         alt="leadtech logo"
                     />
                 </Navbar.Brand>
-                <Nav className="d-none d-md-flex justify-content-end flex-grow-1 pe-3">
+                {/* <Nav className="d-none d-lg-flex justify-content-end flex-grow-1 pe-3">
                     <Nav.Link eventKey={1} href="/">
                         <span className='h3 navlink'>Home</span>
                     </Nav.Link>
@@ -38,20 +38,20 @@ const Header = () => {
                     <Nav.Link eventKey={6} href="/developers">
                         <span className='h3 navlink'>Developers</span>
                     </Nav.Link>
-                </Nav>
-                <Navbar.Toggle aria-controls="offcanvasNavbar-expand-sm"/>
+                </Nav> */}
+                <Navbar.Toggle aria-controls="offcanvasNavbar-expand-lg"/>
                 <Navbar.Offcanvas
-                    id="offcanvasNavbar-expand-sm"
-                    aria-labelledby="offcanvasNavbarLabel-expand-sm"
+                    id="offcanvasNavbar-expand-lg"
+                    aria-labelledby="offcanvasNavbarLabel-expand-lg"
                     placement="end"
                 >
                     <Offcanvas.Header closeButton>
-                        <Offcanvas.Title id="offcanvasNavbarLabel-expand-sm">
+                        <Offcanvas.Title id="offcanvasNavbarLabel-expand-lg">
                             Menu
                         </Offcanvas.Title>
                     </Offcanvas.Header>
                     <Offcanvas.Body style={{background: 'radial-gradient(circle, rgba(21,9,78,1) 0%, rgba(3,23,65,1) 88%)'}}>
-                        <Nav className="d-inline justify-content-end flex-grow-1 pe-3">
+                        <Nav className="d-flex justify-content-end flex-grow-1 pe-3">
                             <Nav.Link eventKey={1} href="/">
                                 <span className='h3 navlink'>Home</span>
                             </Nav.Link>

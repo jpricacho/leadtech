@@ -1,11 +1,11 @@
 import React from 'react';
-import CssBaseline from '@mui/material/CssBaseline';
-import Box from '@mui/material/Box';
-import Container from '@mui/material/Container';
-import Grid from '@mui/material/Grid';
 import FacebookIcon from '@mui/icons-material/Facebook';
 import InstagramIcon from '@mui/icons-material/Instagram';
 import LinkedInIcon from '@mui/icons-material/LinkedIn';
+import CallIcon from '@mui/icons-material/Call';
+import MailIcon from '@mui/icons-material/Mail';
+import LocationOnIcon from '@mui/icons-material/LocationOn';
+import { Row, Container, Col } from 'react-bootstrap';
 import '../styles/Contact.css';
 import Header from './Header';
 
@@ -15,42 +15,38 @@ const Contact = () => {
         <div className='contactbg'>
             <>
                 <Header />
-                <CssBaseline />
-                <Container id='contactpage'>
-                    <Box sx={{ flexGrow: 1 }}>
-                        <h1 className='contactus'>Contact Us</h1>
-                        <Grid container spacing={2} className='text-center'>
-                            <Grid item xs={6}>
-                                <div className='otherinfo'>
-                                    <h1>Don't be a stranger just say hello!</h1>
-                                    <p>Thank you for your interest in our services. Please fill out the form below and we will get back to you promptly regarding your request</p>
-                                    <div className='socials'>
-                                        <ul>
-                                            <li><FacebookIcon /></li>
-                                            <li><InstagramIcon /></li>
-                                            <li><LinkedInIcon /></li>
-                                        </ul>
-                                    </div>
+                <Container className='container'>
+                    <h1>Contact Us</h1>
+                    <Row className='contactus'>
+                        <Col sm={6} className=''>
+                            <div className='otherinfo'>
+                                <h1>Don't be a stranger just say hello!</h1>
+                                <p>Thank you for your interest in our services. Please fill out the form below and we will get back to you promptly regarding your request</p>
+                                <div className='socials'>
+                                    <ul>
+                                        <li><FacebookIcon  className='icons'/>facebook.com/leadtech</li>
+                                        <li><InstagramIcon className='icons' />instagram.com/leadtech</li>
+                                        <li><CallIcon  className='icons'/>+1 4565 6784</li>
+                                        <li><MailIcon  className='icons'/>leadtech1@gmail.com</li>
+                                        <li><LocationOnIcon  className='icons'/>869 D'Amore Trafficway Suite 665, Philippines</li>
+                                    </ul>
                                 </div>
-                            </Grid>
+                            </div>
+                        </Col>
 
-                            <Grid item xs={6}>
-                                <div className='form'>
-                                    <form>
-                                        <input type='text' placeholder='First Name' />
-                                        <input type='text' placeholder='Last Name' />
-                                        <br /><br />
-                                        <input type='text' placeholder='Phone' />
-                                        <input type='text' placeholder='Email' />
-                                        <br /><br />
-                                        <textarea rows='8' placeholder='Message'></textarea>
-                                        <br />
-                                        <input type='submit' value='Send' className='submit' />
-                                    </form>
-                                </div>
-                            </Grid>
-                        </Grid>
-                    </Box>
+                        <Col sm={6} className=''>
+                            <div className='form'>
+                                <form>
+                                    <input type="text" className="form-control form-control-lg" placeholder='First Name' />
+                                    <input type="text" className="form-control form-control-lg" placeholder='Last Name' />
+                                    <input type="email" className="form-control form-control-lg" placeholder='Email' />
+                                    <textarea rows='8' className="form-control form-control-lg" placeholder='Message'></textarea>
+                                    <br />
+                                    <input type='submit' value='Send' className='submit' />
+                                </form>
+                            </div>
+                        </Col>
+                    </Row>
                 </Container>
             </>
         </div>
