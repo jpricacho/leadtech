@@ -30,7 +30,7 @@ const TabCont1 = () => {
       <Col lg={true}>
         <BouncyDiv2>
           <div className='d-flex flex-column gap-5'>
-            <span style={{color: 'white'}} className='h3'>Lead Tech ensures to deliver custom web development services. We are adept at designing and building reponsive, fast-loading, and user-friendly websites that offer a consistent look and use across different web browsers<br /><Badge bg='info'><span className='h2'>On track. On budget.</span></Badge></span>
+            <span style={{color: 'white'}} className='h3'>Lead Tech ensures to deliver custom web development services. We are adept at designing and building reponsive, fast-loading, and user-friendly websites that offer a consistent look and use across different web browsers<br /><Badge bg='info'><span className='h2'>Modern. Creative. Responsive.</span></Badge></span>
             <Button variant="outline-warning" size="lg">
                 Ask for quoutation
             </Button>
@@ -52,7 +52,7 @@ const TabCont2 = () => {
       <Col lg={true}>
       <BouncyDiv2>
           <div className='d-flex flex-column gap-5'>
-            <span style={{color: 'white'}} className='h3'>Want to build your product with a team that establishes a clear design process, meets deadlines, and delivers a spot-on end result? Turn to Lead Tech's UI/UX services. Our designers outline a UI/UX strategy that is adaptable to desktops, various mobile interfaces and platforms, screen sizes and operating systems<br /><Badge bg='info'><span className='h2'>On track. On budget.</span></Badge></span>
+            <span style={{color: 'white'}} className='h3'>Want to build your product with a team that establishes a clear design process, meets deadlines, and delivers a spot-on end result? Turn to Lead Tech's UI/UX services. Our designers outline a UI/UX strategy that is adaptable to desktops, various mobile interfaces and platforms, screen sizes and operating systems.<br /><Badge bg='info'><span className='h2'>Sleek. Interactive. Effective.</span></Badge></span>
             <Button variant="outline-warning" size="lg">
                 Ask for quoutation
             </Button>
@@ -74,7 +74,7 @@ const TabCont3 = () => {
       <Col lg={true}>
         <BouncyDiv2>
           <div className='d-flex flex-column gap-5'>
-            <span style={{color: 'white'}} className='h3'>Our major aim is to increase your brand's visibility online and optimizing your site in such a way that it stays on top of the Google search results. We are focused on the overall development of your marketing strategies so you enjoy business success.<br /><Badge bg='info'><span className='h2'>On track. On budget.</span></Badge></span>
+            <span style={{color: 'white'}} className='h3'>Our major aim is to increase your brand's visibility online and optimizing your site in such a way that it stays on top of the Google search results. We are focused on the overall development of your marketing strategies so you enjoy business success.<br /><Badge bg='info'><span className='h2'>Efficient. Fast Result. Standard.</span></Badge></span>
             <Button variant="outline-warning" size="lg" className='align-bottom'>
                 Ask for quoutation
             </Button>
@@ -96,7 +96,7 @@ const Services = () => {
           activeKey={key}
           onSelect={(k) => setKey(k)}
           className="mb-3 nav-justified"
-          variant='pills'
+          // variant='pills'
         >
           <Tab eventKey="web-design" title="Web Design">
             <TabCont1 />

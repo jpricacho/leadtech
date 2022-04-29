@@ -255,5 +255,10 @@ p {
   color: white;
 }
 
+.nav-tabs > .nav-item > button {
+  color: white;
+  font-size: 28px;
+}
+
 
 
