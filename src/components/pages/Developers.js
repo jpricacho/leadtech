@@ -7,7 +7,9 @@ import CssBaseline from '@mui/material/CssBaseline';
 import Container from '@mui/material/Container';
 import Header from './Header';
 // import 'bootstrap/dist/css/bootstrap.min.css';
-
+import Image  from "../images/profile.JPG";
+import Image2 from "../images/mel.jpg";
+import Image3 from "../images/james.jpg";
 
 
 const Developers = () => {
@@ -21,43 +23,40 @@ const Developers = () => {
            <div className="txt text-white display-4" > 
            Meet Our Developers
            </div>
-            <div className="d-md-flex gap-3" width="100px" height="100vh"> 
+            <div className="d-md-flex gap-3 p-5" width="100px" height="100vh"> 
                 <div className='cards col-md-4 col-12'>
                     <div className='upper-container'>
                         <div className="image-container">
-                            <img src="" alt='' />
+                            <img src={Image} alt='avatar' />
                         </div>
                     </div>
                     <div className="lower-container">
                         <h3> Cielito Ann Repuyan </h3>
                         <h4> Web Developer </h4>
-                        <p> (about) </p>
                         <button> Visit Portfolio </button>
                     </div>
                 </div>
                 <div className='cards col-md-4 col-12'>
                     <div className='upper-container'>
                         <div className="image-container">
-                            <img src="" alt=''/>
+                            <img src={Image3} alt='avatar'/>
                         </div>
                     </div>
                     <div className="lower-container">
                         <h3> James Patrick Ricacho </h3>
                         <h4> Web Developer </h4>
-                        <p> (about) </p>
                         <button> Visit Portfolio </button>
                     </div>
                 </div>
                 <div className='cards col-md-4 col-12'>
                     <div className='upper-container'>
                         <div className="image-container">
-                            <img src="" alt=''/>
+                        <img src={Image2} alt='avatar' />
                         </div>
                     </div>
                     <div className="lower-container">
                         <h3> Meliza De Guia </h3>
                         <h4> Web Developer </h4>
-                        <p> (about) </p>
                         <button> Visit Portfolio </button>
                     </div>
                 </div>
