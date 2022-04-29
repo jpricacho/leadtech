@@ -7,7 +7,7 @@ import CssBaseline from '@mui/material/CssBaseline';
 import Container from '@mui/material/Container';
 import Header from './Header';
 // import 'bootstrap/dist/css/bootstrap.min.css';
-import Image  from "../images/profile.JPG";
+import Image  from "../images/ann.jpg";
 import Image2 from "../images/mel.jpg";
 import Image3 from "../images/james.jpg";
 
@@ -33,7 +33,7 @@ const Developers = () => {
                     <div className="lower-container">
                         <h3> Cielito Ann Repuyan </h3>
                         <h4> Web Developer </h4>
-                        <button> Visit Portfolio </button>
+                        <button><a href="https://carepuyan.netlify.app/"> Visit Portfolio </a> </button>
                     </div>
                 </div>
                 <div className='cards col-md-4 col-12'>
@@ -45,7 +45,8 @@ const Developers = () => {
                     <div className="lower-container">
                         <h3> James Patrick Ricacho </h3>
                         <h4> Web Developer </h4>
-                        <button> Visit Portfolio </button>
+                        <button><a href="https://jpricacho.netlify.app">Visit Portfolio </a></button>
+                        
                     </div>
                 </div>
                 <div className='cards col-md-4 col-12'>
@@ -57,7 +58,8 @@ const Developers = () => {
                     <div className="lower-container">
                         <h3> Meliza De Guia </h3>
                         <h4> Web Developer </h4>
-                        <button> Visit Portfolio </button>
+                        <button><a href="https://mdgportfolio.netlify.app">Visit Portfolio </a> </button>
+                        
                     </div>
                 </div>
             </div>
