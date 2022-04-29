@@ -83,13 +83,13 @@
     transition-duration: 0.5s;
     animation: ease-in-out;
 }
-button:hover {
+.lower-container button:hover {
     background-image: linear-gradient(to left, #2d00f2,#ff0291);
     transform: scale(1.1);
     border: none;
 
 }
-button a {
+.lower-container button a {
     text-decoration: none;
     color: black;
 }
