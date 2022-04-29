@@ -8,7 +8,7 @@ import {Navbar, Nav, Container, Offcanvas, Form, FormControl, NavDropdown, Butto
 
 const Header = () => {
     return (
-        <Navbar expand="sm" variant='dark'>
+        <Navbar expand="sm" variant='dark' className='shadow-lg'>
             <Container>
                 <Navbar.Brand href="/">
                     <img
