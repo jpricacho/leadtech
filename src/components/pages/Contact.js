@@ -5,7 +5,7 @@ import LinkedInIcon from '@mui/icons-material/LinkedIn';
 import CallIcon from '@mui/icons-material/Call';
 import MailIcon from '@mui/icons-material/Mail';
 import LocationOnIcon from '@mui/icons-material/LocationOn';
-import { Row, Container, Col } from 'react-bootstrap';
+import { Row, Container, Col, Form } from 'react-bootstrap';
 import '../styles/Contact.css';
 import Header from './Header';
 
@@ -34,17 +34,26 @@ const Contact = () => {
                             </div>
                         </Col>
 
-                        <Col sm={6} className=''>
-                            <div className='form'>
-                                <form>
-                                    <input type="text" className="form-control form-control-lg" placeholder='First Name' />
-                                    <input type="text" className="form-control form-control-lg" placeholder='Last Name' />
-                                    <input type="email" className="form-control form-control-lg" placeholder='Email' />
-                                    <textarea rows='8' className="form-control form-control-lg" placeholder='Message'></textarea>
-                                    <br />
-                                    <input type='submit' value='Send' className='submit' />
-                                </form>
-                            </div>
+                        <Col sm={6} className='text-white form mt-2'>
+                            <Form>
+                                <Form.Group className="mb-3" controlId="exampleForm.ControlInput1">
+                                    <Form.Label>First Name</Form.Label>
+                                    <Form.Control type="text" placeholder="First Name" />
+                                </Form.Group>
+                                <Form.Group className="mb-3" controlId="exampleForm.ControlInput1">
+                                    <Form.Label>Last Name</Form.Label>
+                                    <Form.Control type="text" placeholder="Last Name" />
+                                </Form.Group>
+                                <Form.Group className="mb-3" controlId="exampleForm.ControlInput1">
+                                    <Form.Label>Email address</Form.Label>
+                                    <Form.Control type="email" placeholder="Email" />
+                                </Form.Group>
+                                <Form.Group className="mb-3" controlId="exampleForm.ControlTextarea1">
+                                    <Form.Label>Message</Form.Label>
+                                    <Form.Control as="textarea" rows={3} />
+                                </Form.Group>
+                                <input type='submit' value='Send' className='submit' />
+                            </Form>
                         </Col>
                     </Row>
                 </Container>
