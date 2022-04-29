@@ -36,7 +36,21 @@ const Projects = () => {
                 <img src={heroimg} className='img-responsive' />
               </a>
               <div className="portfolio-caption">
-                <h4>Facebook</h4>
+                <h4>CryptoBuzz</h4>
+                <p>Web Design</p>
+              </div>
+            </Col>
+            <Col md={4} className='portfolio-item'>
+              <a href="#portfolioModal1" className="portfolio-link" data-toggle="modal">
+                <div className="portfolio-hover">
+                  <div className='portfolio-hover-content'>
+                    <i className="fa fa-plus fa-3x"></i>
+                  </div>
+                </div>
+                <img src={heroimg} className='img-responsive' />
+              </a>
+              <div className="portfolio-caption">
+                <h4>React Calculator</h4>
                 <p>Web Development</p>
               </div>
             </Col>
@@ -50,21 +64,7 @@ const Projects = () => {
                 <img src={heroimg} className='img-responsive' />
               </a>
               <div className="portfolio-caption">
-                <h4>Facebook</h4>
-                <p>Web Development</p>
-              </div>
-            </Col>
-            <Col md={4} className='portfolio-item'>
-              <a href="#portfolioModal1" className="portfolio-link" data-toggle="modal">
-                <div className="portfolio-hover">
-                  <div className='portfolio-hover-content'>
-                    <i className="fa fa-plus fa-3x"></i>
-                  </div>
-                </div>
-                <img src={heroimg} className='img-responsive' />
-              </a>
-              <div className="portfolio-caption">
-                <h4>Facebook</h4>
+                <h4>Task Managment System</h4>
                 <p>Web Development</p>
               </div>
             </Col>
