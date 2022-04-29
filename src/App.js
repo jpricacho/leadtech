@@ -4,8 +4,6 @@ import Header from './components/pages/Header';
 import Section from './components/pages/Section';
 import 'bootstrap/dist/css/bootstrap.min.css';
 
-import 'bootstrap/dist/css/bootstrap.min.css';
-
 function App() {
   return (
     <div className="App">
